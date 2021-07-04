@@ -13,7 +13,7 @@ function App() {
   const [prevUser, setPrevUser] = useState("");
 
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Route exact path="/">
         <Home
           socket={socket}
