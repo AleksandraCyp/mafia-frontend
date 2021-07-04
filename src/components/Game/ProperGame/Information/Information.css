@@ -1,0 +1,12 @@
+.informationContainer {
+    height: 25vh;
+    display: grid;
+
+}
+
+.informationList {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    overflow-y: scroll;
+    height: 100%;
+}

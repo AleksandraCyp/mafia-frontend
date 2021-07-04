@@ -1,0 +1,30 @@
+.gameContainer {
+  box-sizing: border-box;
+  min-height: 100vh;
+  width: 1000px;
+  justify-items: center;
+  border: 2px solid lightgray;
+  text-align: center;
+  padding: 10px;
+}
+
+.gameContainer ul {
+  display: grid;
+  justify-items: center;
+  padding: 0;
+}
+
+.rightSideGame {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-content: center;
+  position: sticky;
+  top: 0;
+}
+
+.leftSideGame {
+  display: grid;
+  grid-template-columns: 1fr ;
+  grid-template-rows: minmax(30vh, auto) auto;
+  align-content: center;
+}

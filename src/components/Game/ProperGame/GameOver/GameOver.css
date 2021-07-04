@@ -1,0 +1,11 @@
+.gameOverContainer {
+    height: 100%;
+    display: grid;
+    align-items: center;
+    align-content: center;
+    grid-template-rows: 100px 100px auto;
+}
+
+.gameOverContainer li {
+    margin: 1px;
+}

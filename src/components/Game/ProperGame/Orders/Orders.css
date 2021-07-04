@@ -1,0 +1,14 @@
+.ordersContainer {
+    min-height: 25vh;
+    grid-template-rows: 70px 1fr;
+}
+
+.ordersList {
+    height: 100%;
+    display: grid;
+    align-items: center;
+}
+
+.ordersList * {
+
+}

@@ -1,0 +1,32 @@
+.homeContainer {
+  border: 2px solid lightgray;
+  text-align: center;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.homeContainer fieldset {
+  display: grid;
+  justify-items: center;
+}
+
+.homeContainer input[type="file"] {
+  opacity: 0;
+  width: 0.1px;
+  height: 0.1px;
+  position: absolute;
+}
+
+.imageLabel {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    padding: 5px;
+}
+
+.imageLabel label {
+    padding-right: 3px;
+}
+

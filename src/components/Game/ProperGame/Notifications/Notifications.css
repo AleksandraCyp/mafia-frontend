@@ -1,0 +1,17 @@
+.notificationsContainer {
+  display: grid;
+  height: 25vh;
+  align-items: center;
+  grid-template-rows: 50px 1fr;
+}
+
+.notifications {
+  height: 100%;
+  overflow-y: scroll;
+  display: grid;
+  align-content: start;
+}
+
+.notifications li {
+  margin: 2px;
+}

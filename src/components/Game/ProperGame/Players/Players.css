@@ -1,0 +1,15 @@
+.userMenuTop {
+  padding: 5px 0px;
+  cursor: pointer;
+}
+
+.usersBottomMenu li {
+  margin: 8px;
+  padding: 5px;
+  border-bottom: 1px solid lightgray;
+  cursor: pointer;
+}
+
+.usersBottomMenu input {
+  margin-left: 10px;
+}
