@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/mafia/static/css/main.2fa2b33f.chunk.css",
-    "main.js": "/mafia/static/js/main.0e22383f.chunk.js",
-    "main.js.map": "/mafia/static/js/main.0e22383f.chunk.js.map",
-    "runtime-main.js": "/mafia/static/js/runtime-main.ae1d1931.js",
-    "runtime-main.js.map": "/mafia/static/js/runtime-main.ae1d1931.js.map",
-    "static/css/2.41478029.chunk.css": "/mafia/static/css/2.41478029.chunk.css",
-    "static/js/2.d5a9d2bb.chunk.js": "/mafia/static/js/2.d5a9d2bb.chunk.js",
-    "static/js/2.d5a9d2bb.chunk.js.map": "/mafia/static/js/2.d5a9d2bb.chunk.js.map",
-    "static/js/3.d8f57a7a.chunk.js": "/mafia/static/js/3.d8f57a7a.chunk.js",
-    "static/js/3.d8f57a7a.chunk.js.map": "/mafia/static/js/3.d8f57a7a.chunk.js.map",
-    "index.html": "/mafia/index.html",
-    "static/css/2.41478029.chunk.css.map": "/mafia/static/css/2.41478029.chunk.css.map",
-    "static/css/main.2fa2b33f.chunk.css.map": "/mafia/static/css/main.2fa2b33f.chunk.css.map",
-    "static/js/2.d5a9d2bb.chunk.js.LICENSE.txt": "/mafia/static/js/2.d5a9d2bb.chunk.js.LICENSE.txt"
+    "main.css": "/mafia-frontend/static/css/main.2fa2b33f.chunk.css",
+    "main.js": "/mafia-frontend/static/js/main.0e22383f.chunk.js",
+    "main.js.map": "/mafia-frontend/static/js/main.0e22383f.chunk.js.map",
+    "runtime-main.js": "/mafia-frontend/static/js/runtime-main.2976b5ea.js",
+    "runtime-main.js.map": "/mafia-frontend/static/js/runtime-main.2976b5ea.js.map",
+    "static/css/2.41478029.chunk.css": "/mafia-frontend/static/css/2.41478029.chunk.css",
+    "static/js/2.df31dde6.chunk.js": "/mafia-frontend/static/js/2.df31dde6.chunk.js",
+    "static/js/2.df31dde6.chunk.js.map": "/mafia-frontend/static/js/2.df31dde6.chunk.js.map",
+    "static/js/3.d8f57a7a.chunk.js": "/mafia-frontend/static/js/3.d8f57a7a.chunk.js",
+    "static/js/3.d8f57a7a.chunk.js.map": "/mafia-frontend/static/js/3.d8f57a7a.chunk.js.map",
+    "index.html": "/mafia-frontend/index.html",
+    "static/css/2.41478029.chunk.css.map": "/mafia-frontend/static/css/2.41478029.chunk.css.map",
+    "static/css/main.2fa2b33f.chunk.css.map": "/mafia-frontend/static/css/main.2fa2b33f.chunk.css.map",
+    "static/js/2.df31dde6.chunk.js.LICENSE.txt": "/mafia-frontend/static/js/2.df31dde6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.ae1d1931.js",
+    "static/js/runtime-main.2976b5ea.js",
     "static/css/2.41478029.chunk.css",
-    "static/js/2.d5a9d2bb.chunk.js",
+    "static/js/2.df31dde6.chunk.js",
     "static/css/main.2fa2b33f.chunk.css",
     "static/js/main.0e22383f.chunk.js"
   ]
