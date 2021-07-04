@@ -167,24 +167,20 @@ const Settings = ({ users, socket, user, setGameManager }) => {
   };
 
   return (
-    <div className="pure-g settingsContainer">
-      <h1 className="pure-u-1">Pokój {user.room}</h1>
-      <div className="pure-u-1-2">
-        <div className="settingsColumn settingsLeftColumn">
-          <h1>Gracze</h1>
-          <ul>{userList}</ul>
-        </div>
+    <div className="settingsContainer">
+      <h1 className="settingsTitle">Pokój {user.room}</h1>
+      <div className="settingsColumn settingsLeftColumn">
+        <h1>Gracze</h1>
+        <ul>{userList}</ul>
       </div>
-      <div className="pure-u-1-2">
-        <div className="settingsColumn">
-          <h1>Postaci</h1>
-          <h2>Miasto</h2>
-          <ul className="charactersList">{listCharacters(cityCharacters)}</ul>
-          <h2>Mafia</h2>
-          <ul className="charactersList">{listCharacters(mafiaCharacters)}</ul>
-        </div>
+      <div className="settingsColumn">
+        <h1>Postaci</h1>
+        <h2>Miasto</h2>
+        <ul className="charactersList">{listCharacters(cityCharacters)}</ul>
+        <h2>Mafia</h2>
+        <ul className="charactersList">{listCharacters(mafiaCharacters)}</ul>
       </div>
-      <div className="pure-u-1">
+      <div className="settingsButton">
         <input
           type="button"
           value="Rozpocznij grę"

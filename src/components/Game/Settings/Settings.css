@@ -7,6 +7,7 @@
   border: 2px solid lightgray;
   text-align: center;
   padding: 10px;
+  grid-template-columns: 1fr 1fr;
 }
 
 .settingsColumn ul {
@@ -42,6 +43,14 @@
 
 .characterItemDescription {
     margin: 5px;
+}
+
+.settingsTitle {
+  grid-column: span 2;
+}
+
+.settingsButton {
+  grid-column: span 2;
 }
 
 
