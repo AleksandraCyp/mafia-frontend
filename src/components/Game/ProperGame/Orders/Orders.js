@@ -119,7 +119,6 @@ const Orders = ({
                 Podejmij decyzję, których dwóch graczy chcesz połączyć więzami
                 miłości
               </p>
-              (
               <div>
                 <input
                   type="button"
@@ -129,7 +128,6 @@ const Orders = ({
                   disabled={amorekChoices.length !== 2}
                 ></input>
               </div>
-              )
             </>
           )}
         {gameManager.phase === "day" &&
@@ -140,7 +138,7 @@ const Orders = ({
           !gameManager.endDayVoting.agreements.some(
             (vote) => vote[0].id === player.id
           ) && (
-            <p>
+            <div>
               Czy wyrażasz zgodę, aby pierwszą propozycją na{" "}
               {gameManager.endDayVoting.type === "kill"
                 ? "zabicie"
@@ -149,7 +147,7 @@ const Orders = ({
               {gameManager.endDayVoting.offers[0].id === player.id
                 ? "ty"
                 : gameManager.endDayVoting.offers[0].name}
-              ? (
+              ?
               <div>
                 <input
                   type="button"
@@ -164,8 +162,7 @@ const Orders = ({
                   onClick={() => handleAcceptOffer(false)}
                 ></input>
               </div>
-              )
-            </p>
+            </div>
           )}
         {gameManager.phase === "day" &&
           gameManager.endDayVoting.offeredBy &&
@@ -234,7 +231,7 @@ const Orders = ({
             (vote) => vote[0].id === player.id
           ) && (
             <>
-              <p>Zagłosuj:</p>(
+              <p>Zagłosuj:</p>
               <div>
                 <input
                   type="button"
@@ -277,7 +274,6 @@ const Orders = ({
                   }
                 ></input>
               </div>
-              )
             </>
           )}
         {gameManager.phase === "day" &&
@@ -315,7 +311,6 @@ const Orders = ({
                   : gameManager.duel.offer.name}
                 ?
               </p>
-              (
               <div>
                 <input
                   type="button"
@@ -330,7 +325,6 @@ const Orders = ({
                   onClick={() => handleSędziaDecision(false)}
                 ></input>
               </div>
-              )}
             </>
           )}
         {gameManager.phase === "day" &&
@@ -344,7 +338,6 @@ const Orders = ({
                 Trwa pojedynek: podejmij decyzję, na kogo śmierć głosujesz albo
                 wstrzymaj się od głosu
               </p>
-              (
               <div>
                 <input
                   type="button"
@@ -365,7 +358,6 @@ const Orders = ({
                   onClick={() => handleDuelVote("noVote")}
                 ></input>
               </div>
-              )
             </>
           )}
         {gameManager.phase === "day" &&
