@@ -169,13 +169,13 @@ const Settings = ({ users, socket, user, setGameManager }) => {
   return (
     <div className="pure-g settingsContainer">
       <h1 className="pure-u-1">Pokój {user.room}</h1>
-      <div className="pure-u-1-2 ">
+      <div className="pure-u-1-2">
         <div className="settingsColumn settingsLeftColumn">
           <h1>Gracze</h1>
           <ul>{userList}</ul>
         </div>
       </div>
-      <div className="pure-u-1-2 ">
+      <div className="pure-u-1-2">
         <div className="settingsColumn">
           <h1>Postaci</h1>
           <h2>Miasto</h2>
