@@ -13,11 +13,15 @@
   overflow-y: scroll;
   display: grid;
   align-content: start;
-  justify-items: start;
+  justify-content: stretch;
+  text-align: left;
 }
 
 .chat li {
   margin: 2px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto 1fr;
 }
 
 .chatContainer form {

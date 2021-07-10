@@ -56,7 +56,7 @@ const ProperGame = ({
       <div className="pure-u-1-2">
         <div className="rightSideGame">
           <Notifications gameManager={gameManager} player={player} />
-          <Chat gameManager={gameManager} player={player} />
+          <Chat gameManager={gameManager} player={player} socket={socket} />
           <Information gameManager={gameManager} player={player} />
         </div>
       </div>
